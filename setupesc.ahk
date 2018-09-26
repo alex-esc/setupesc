@@ -2,6 +2,8 @@
 
 # setupesc by alex-esc
 
+**version date: sep/25/18**
+
 This is script was formed by cloning the former keybinds.ahk and adding some extra features from the experimental feature list, written on AutoHotkey under the GPLv3.
 
 Everything here is a collection of small tweaks to the default windows 10 experience with the goal to enhance productivity and ease of use with emphasis on using the keyboard as much as possible.

@@ -10,6 +10,10 @@ Made using autohotkey and licensed under the GPL.
 
 Thanks to setupesc I achieved a desktop with zero icons and distractions, your computer is a tool not a toy, the less distractions and layers of menus: the better.
 
+## Download
+
+[click here to download](https://github.com/alex-esc/setupesc/blob/master/setupesc.exe?raw=true). To download the source code, just clone this repository or click download zip.
+
 ## How to launch common programs
 
 Since most of your time on a computer is spent in front of a text editor, web browser or video streaming service I've turned these actions into shortcuts.
@@ -107,7 +111,7 @@ Most of the small changes and shortcuts are made by me and the most complex func
 
 email <alexesc@disroot.org>
 
-website <alex-esc.github.io>
+website <https://alex-esc.github.io>
 
 
 ## License
