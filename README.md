@@ -12,7 +12,7 @@ Thanks to setupesc I achieved a desktop with zero icons and distractions, your c
 
 ## Download
 
-[click here to download](https://github.com/alex-esc/setupesc/blob/master/setupesc.exe?raw=true). To download the source code, just clone this repository or click download zip.
+[click here to download](https://github.com/alex-esc/setupesc/archive/master.zip). To download the source code, just clone this repository or click download zip.
 
 ## How to launch common programs
 
