@@ -116,6 +116,9 @@ return
 	Run, C:\Program Files (x86)\gPodder\bin\gpodder.exe
     return
 
+~LWin Up:: return
+~RWin Up:: return
+
 /*
 
 power plans:

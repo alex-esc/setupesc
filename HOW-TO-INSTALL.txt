@@ -1,0 +1,53 @@
+DOWNLOADING SETUPESC
+
+Before installing Setupesc you need to get an exact copy of the github repository for Setupesc.
+
+You can find it on the flowing link https://github.com/alex-esc/setupesc
+
+Then click on clone or download (green button), you can use git to clone it or if you don't have git
+you can simply click on download zip, if you download it as a zip make sure to un-zip it
+
+
+
+
+INSTALLING SETUPESC
+
+Once un-zipped, open the folder called setupesc and click on the file called 'installer.bat'
+
+This will create a new folder on your documents folder, the new folder will be named 'setupesc'
+
+Setupesc is now installed.
+
+
+
+
+
+UNINSTALLING SETUPESC
+
+To uninstall Setupesc go to my documents and find the folder called setupesc, it will have a copy of
+the repository, on it you must click on 'un-installer.bat' to uninstall the program, this will delete
+all trace of the program on your computer.
+
+When the unsinstalling process begins all explorer windows will be closed.
+
+Setupesc is now uninstalled.
+
+
+
+
+COPPYING SETUPESC ON ANOTHER COMPUTER
+
+If you wish to copy the installer on a USB drive to install it on a different computer you need to
+copy the entire 'setupesc' folder instead of only copping the installer, this is because the
+installer needs the rest of the files on 'setupesc'.
+
+Remember that the folder 'setupesc' is inside 'my documents'
+
+
+
+
+MODIFYING SETUPESC (ADDING OR EDITING MY OWN SHORTCUTS)
+
+To add your own custom shortcuts and extra functionality you need to edit the file called
+'setupesc.ahk' here you can make your changes using the autohotkey scripting language, if you need
+help/code examples you can find it on the 'README.md' file.
