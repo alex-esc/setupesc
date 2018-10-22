@@ -1,0 +1,1 @@
+C:\> choco install 7zip autohotkey audacity miktex brave ffmpeg firefox github handbrake.install itunes keepassxc keybase launchy libreoffice-still megasync notepadplusplus.install pandoc signal steam synctrayzor texmaker thunderbird tor-browser telegram.install classic-shell youtube-dl vlc waterfox whatsapp gimp inkscape logitechgaming

@@ -1,1 +1,0 @@
-md %SystemRoot%\explorer.exe %UserProfile%\Documents\setupesc

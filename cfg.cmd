@@ -1,0 +1,1 @@
+"%cd%\build\fnr.exe" --cl --dir "%UserProfile%\Documents\setupesc" --fileMask "*setupesc.ahk*" --excludeFileMask "*.dll, *.exe" --includeSubDirectories --find "Alejandro" --replace "%username%"

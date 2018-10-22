@@ -31,6 +31,8 @@ Since most of your time on a computer is spent in front of a text editor, web br
 | Win + r           | RSS Reader  |
 | CONTROL + ESCAPE  | Launchy     |
 
+and much more!
+
 Since I use multiple browsers I choose between them using SHIFT and CONTROL, you can modify these shortcuts and modify them with little effort, for example you could change FreeTube for YouTube or Netflix, I will go in more detail on a later section.
 
 ## How to launch any program
@@ -44,6 +46,24 @@ You may not recognize all programs on the list, but the last program 'Launchy' i
 3. Search for any file or program on the pop-up
 
 Later you can right lick on launchy to change the hotkey to call the search function, I personally use CONTROL + ESCAPE.
+
+## Installing setupesc
+
+Download setupesc and un-zip it then open the folder called setupesc and click on the file called 'installer.bat'
+
+This will create a new folder on your documents folder, the new folder will be named 'setupesc' and it will make this program run on startup.
+
+## Uninstalling setupesc
+
+To uninstall Setupesc go to my documents and find the folder called setupesc, it will have a copy of the repository, on it you must click on 'un-installer.bat' to uninstall the program, this will delete all trace of the program on your computer.
+
+When the unsinstalling process begins explorer.exe will restart.
+
+## Copying setupesc on another computer
+
+If you wish to copy the installer on a USB drive to install it on a different computer you need to copy the entire 'setupesc' folder instead of only copping the installer, this is because the installer needs the rest of the files on 'setupesc'.
+
+Remember that the folder 'setupesc' is inside 'my documents'.
 
 ## How to make your own shortcuts
 
@@ -70,6 +90,14 @@ Remember that this software is licensed under the GPl, meaning you may copy, dis
 This means: run 'firefox.exe' when 'Windows + b' is pressed. \# means the windows key, whatever is next to it will be the next button to push to trigger the shortcut.
 
 **What symbol means what?**
+
+
+
+<!-- 
+IMPORTANT NOTE, ALL SYMBOLS INSIDE THIS DOCUMENT START WITH '\' JUST IGNORE THAT SYMBOL, FOR EXAMPLE IF I SAY THAT '\#' MEANS WIN KEY, IT MEANS THAT ONLY '#' MEANS WIN KEY
+ -->
+
+
 
 |  symbol |          key           |
 |:--------|:----------------------:|

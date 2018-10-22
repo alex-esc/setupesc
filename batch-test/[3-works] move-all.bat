@@ -1,1 +1,0 @@
-move C:\Users\Alejandro\Documents\GitHub\setupesc\batch-test\test-folder %UserProfile%\Documents\setupesc\

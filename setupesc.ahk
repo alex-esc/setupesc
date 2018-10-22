@@ -18,31 +18,92 @@ Binary version also available on my github.
 
 ## Keybind Listing
 
-|   Key combination   |             Function               |
-|:--------------------|:----------------------------------:|
-| Win+c               |  Alt+f4 / close program            |
-| ALT+Capslock        |  CapsLock                          |
-| CapsLock            |  Mouse2                            |
-| alt+n               |  ñ                                 |
-| win+numpad9         |  set powerplan to high             |
-| win+numpad6         |  set powerplan to mid              |
-| win+numpad3         |  set powerplan to low              |
-| win+NumpadAdd       |  Enable mouse acceleration         |
-| win+NumpadSubstract |  Disable mouse acceleration        |
-| win+NumpadEnter     |  Toggle mouse acceleration         |
-| win+numpad8         |  open windows audio settings       |
-| Ctrl+win+numpad8    |  open sound blaster audio settings |
-| win+numpad7         |  open showoff                      |
-| Win+t               |  hide taskbar                      |
-| Win+[               |  insert Spanish accent             |
-| Win + b             | Firefox                            |
-| SHIFT + Win + b     | Waterfox                           |
-| CONTROL + Win + b   | Brave                              |
-| Win + v             | FreeTube                           |
-| Win + n             | Notepad++                          |
-| Win + k             | KeePassXC                          |
-| Win + m             | Thunderbird                        |
-| Win + p             | Gpodder                            |
+This are the default keybindings, you can change them at any time by editing this file
+
+|      Key combination       |             Function               |
+|:---------------------------|:----------------------------------:|
+| Windows key                | nothing                            |
+| Win + c                    | Alt+f4 / close program             |
+| ALT + Capslock             | CapsLock                           |
+| CapsLock                   | Mouse2                             |
+| alt + n                    | ñ                                  |
+| Alt + n                    | create a new document here         |
+| win+numpad9                | set powerplan to high              |
+| win + numpad6              | set powerplan to mid               |
+| win + numpad3              | set powerplan to low               |
+| win + NumpadAdd            | Enable mouse acceleration          |
+| win + NumpadSubstract      | Disable mouse acceleration         |
+| win + NumpadEnter          | Toggle mouse acceleration          |
+| win + numpad8              | open windows audio settings        |
+| Ctrl + win + numpad8       | open sound blaster audio settings  |
+| win + numpad7              | open showoff                       |
+| Win + t                    | hide taskbar                       |
+| Win + [                    | insert Spanish accent              |
+| Win + b                    | Firefox                            |
+| SHIFT + Win + b            | Waterfox                           |
+| CONTROL + Win + b          | Brave                              |
+| CONTROL + ALT + f1         | Tor Browser                        |
+| Win + v                    | FreeTube                           |
+| Win + n                    | Notepad++                          |
+| Win + k                    | KeePassXC                          |
+| Win + m                    | Thunderbird                        |
+| Win + g                    | Github Desktop                     |
+| Win + a                    | Adobe Premiere Pro                 |
+| SHIFT + Win + a            | Adobe Audition                     |
+| CONTROL + Win + a          | AfterFX                            |
+| Win + d                    | Ableton Live                       |
+| CONTROL + Win + d          | audacity                           |
+| Win + l                    | TeXworks                           |
+| CONTROL + Win + l          | texmaker                           |
+| Win + p                    | Gpodder                            |
+| Win + i                    | itunes                             |
+| left Ctrl + g              | github                             |
+| left Ctrl + r              | reddit                             |
+| left Ctrl + b              | blackboard                         |
+| left Ctrl + v              | netflix                            |
+| left Ctrl + y              | youtube                            |
+| left Ctrl + left Shift + d | Desktop folder                     |
+| left Ctrl + left Shift + v | Videos folder                      |
+| left Ctrl + left Shift + i | Images folder                      |
+| left Ctrl + left Shift + j | Downloads folder                   |
+| left Ctrl + left Shift + g | GitHub folder                      |
+| left Ctrl + left Shift + n | Notebooks folder                   |
+| left Ctrl + left Shift + l | LaTeX Files folder                 |
+| left Ctrl + left Shift + m | Markdown folder                    |
+
+
+
+
+## Default programs
+
+This script assumes the following programs, some of them assume the default installation path, this means that they will not work until you change them to the correct path.
+
+**List of programs you need installed anywhere**
+
+* Firefox
+* Notepad++
+* Waterfox
+* Brave dev (beta version)
+* Thunderbird
+* iTunes
+
+**List of programs that need specific paths**
+
+* Brave browser (release version)
+* FreeTube
+* KeePassXC
+* G-Podder
+
+In the future this script will include a gui for updating paths, for now you must dive in the source code.
+
+**Specific paths that need modification**
+
+to modify them, just do a search for the following paths and replace them with your own.
+
+* C:\Users\Alejandro\AppData\Local\Brave\Brave.exe
+* C:\Users\Alejandro\AppData\Local\freetube\FreeTube.exe
+* C:\Program Files\KeePassXC\KeePassXC.exe
+* C:\Program Files (x86)\gPodder\bin\gpodder.exe
 
 ## Experimental features
 
@@ -95,6 +156,10 @@ return
 ^#b::
     Run, C:\Users\Alejandro\AppData\Local\Brave\Brave.exe
     return
+
+^!f1::
+    Run, C:\Users\Alejandro\Desktop\stuff\Tor Browser\Browser\firefox.exe
+Return
 	
 #V::
     Run, C:\Users\Alejandro\AppData\Local\freetube\FreeTube.exe
@@ -112,9 +177,116 @@ return
 	Run, thunderbird.exe
     return
 
+#g::
+	Run, C:\Users\Alejandro\AppData\Local\GitHubDesktop\GitHubDesktop.exe
+    return
+
 #p::
 	Run, C:\Program Files (x86)\gPodder\bin\gpodder.exe
     return
+
+#i::
+    Run, itunes.exe
+    return
+	
+#h::
+    Run, C:\Users\Alejandro\AppData\Local\WhatsApp\WhatsApp.exe
+    return
+	
++#h::
+    Run, C:\Users\Alejandro\AppData\Local\Programs\signal-desktop\Signal.exe
+    return
+
+^#h::
+    Run, C:\Users\Alejandro\AppData\Roaming\Telegram Desktop\Telegram.exe
+    return
+	
+#a::
+    Run, C:\Program Files\Adobe\Adobe Premiere Pro CC 2017\Adobe Premiere Pro.exe
+    return
+	
++#a::
+    Run, C:\Program Files\Adobe\Adobe Audition CC 2015\Adobe Audition CC.exe
+    return
+
+^#a::
+    Run, C:\Program Files\Adobe\Adobe After Effects CC 2015\Support Files\AfterFX.exe
+    return
+	
+#d::
+    Run, C:\ProgramData\Ableton\Live 10 Suite\Program\Ableton Live 10 Suite.exe
+    return
+	
++#d::
+    Run, C:\Program Files (x86)\Audacity\audacity.exe
+   return
+
+#l::
+    Run, C:\Program Files (x86)\TeXworks\TeXworks.exe
+    return
+	
++#l::
+    Run, C:\Program Files (x86)\Texmaker\texmaker.exe
+    return
+
+>^s::
+    Run, Brave.exe https://miscursos.tec.mx/ultra/stream
+    return
+
+>^r::
+    Run, Brave.exe https://old.reddit.com/
+    return
+
+>^y::
+    Run, Brave.exe https://www.youtube.com/
+    return
+
+>^v::
+    Run, Brave.exe https://www.netflix.com/browse
+    return
+
+>^g::
+    Run, Brave.exe https://github.com/
+    return
+
+>^>+d::
+  Run, Explorer C:\Users\Alejandro\Desktop
+Return	
+
+>^>+v::
+  Run, Explorer C:\Users\Alejandro\Videos
+Return	
+
+
+>^>+g::
+  Run, Explorer C:\Users\Alejandro\Documents\GitHub
+Return	
+
+
+>^>+n::
+  Run, Explorer C:\Users\Alejandro\Documents\MEGAsync\Notebooks
+Return	
+
+
+>^>+l::
+  Run, Explorer C:\Users\Alejandro\Documents\LaTeX Files
+Return	
+
+
+>^>+m::
+  Run, Explorer C:\Users\Alejandro\Documents\markdown
+Return	
+
+
+>^>+i::
+  Run, Explorer C:\Users\Alejandro\Pictures
+Return	
+
+>^>+j::
+  Run, Explorer C:\Users\Alejandro\Downloads
+Return	
+
+
 
 ~LWin Up:: return
 ~RWin Up:: return
@@ -328,4 +500,106 @@ Replace(key)
    IfEqual key, 1, Send {Asc 173}{!}{left 1}
    
    }
+Return
+
+
+; This is part of my AutoHotKey [1] script. When you are in Windows Explorer it
+; allows you to press Alt+N and type a filename, and that file is created
+; in the current directory and opened in the appropriate editor (usually
+; [gVim](http://www.vim.org/) in my case, but it will use whatever program is
+; associated with the file in Windows Explorer).
+
+; This is much easier than the alternative that I have been using until now:
+; Right click > New > Text file, delete default filename and extension (which
+; isn't highlighted in Windows 7), type the filename, press enter twice.
+; (Particularly for creating dot files like ".htaccess".)
+
+; Credit goes to aubricus [2] who wrote most of this and davejamesmiller [3] who
+; added the 'IfWinActive' check and 'Run %UserInput%' at the end. Also to 
+; syon [4] who changed regexp to make script work on non-english versions
+; of Windows. And I changed the way how script gets full path to make it
+; compatible with Windows 10 and also changed hotkey to Alt+N
+
+; [1]: http://www.autohotkey.com/
+; [2]: https://gist.github.com/1148174
+; [3]: https://gist.github.com/1965432
+; [4]: https://github.com/syon/ahk/blob/master/NewFile/NewFile.ahk
+
+
+; Only run when Windows Explorer or Desktop is active
+; Alt+N
+#IfWinActive ahk_class CabinetWClass
+!SC031::
+#IfWinActive ahk_class ExploreWClass
+!SC031::
+#IfWinActive ahk_class Progman
+!SC031::
+#IfWinActive ahk_class WorkerW
+!SC031::
+
+    ; Get full path from open Explorer window
+    WinGetText, FullPath, A
+
+    ; Split up result (it returns paths seperated by newlines)
+    StringSplit, PathArray, FullPath, `n
+	
+	; Find line with backslash which is the path
+	Loop, %PathArray0%
+    {
+        StringGetPos, pos, PathArray%a_index%, \
+        if (pos > 0) {
+            FullPath:= PathArray%a_index%
+            break
+        }
+    }
+	
+    ; Clean up result
+    FullPath := RegExReplace(FullPath, "(^.+?: )", "")
+	StringReplace, FullPath, FullPath, `r, , all
+
+
+    ; Change working directory
+    SetWorkingDir, %FullPath%
+
+    ; An error occurred with the SetWorkingDir directive
+    If ErrorLevel
+        Return
+
+    ; Display input box for filename
+    InputBox, UserInput, New File, , , 400, 100, , , , ,
+
+    ; User pressed cancel
+    If ErrorLevel
+        Return
+
+    ; Create file
+    FileAppend, , %UserInput%
+
+    ; Open the file in the appropriate editor
+    Run %UserInput%
+
+    Return
+
+#IfWinActive
+
+
+
+
+
+
+;000000000000000000000000000
+;000000000000000000000000000
+;
+; DEV SHORTCUTS ALWAYS PUT THIS AT THE END
+;
+;000000000000000000000000000
+;000000000000000000000000000
+
+^!f11::
+    Run, shell:startup
+Return
+
+^!f12::
+MsgBox, 4, Close Setupesc? , if you want to restart setupesc go to 'USERNAME\my documents\setupesc'
+IfMsgBox, Yes, ExitApp
 Return

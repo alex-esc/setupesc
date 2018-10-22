@@ -1,1 +1,0 @@
-xcopy /s C:\Users\Alejandro\Documents\GitHub\setupesc %UserProfile%\Documents\setupesc

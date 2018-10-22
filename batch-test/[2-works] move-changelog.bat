@@ -1,1 +1,0 @@
-move changelog.txt %UserProfile%\Documents\setupesc

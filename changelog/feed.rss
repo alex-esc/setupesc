@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <generator>RSS Builder by B!Soft</generator>
+    <title>Setupesc updates / changelog</title>
+    <link>https://alex-esc.github.io/getsetupesc/</link>
+    <description>Get notified when a new version of setupesc is released</description>
+    <language>en-us</language>
+	    <item>
+      <title>A new version of setupesc has been released</title>
+      <enclosure url="https://github.com/alex-esc/setupesc/archive/master.zip" length="" type="" />
+      <description><![CDATA[Version description]]></description>
+    </item>
+    <item>
+      <title>Welcome to the newsletter</title>
+      <enclosure url="https://github.com/alex-esc/setupesc/archive/master.zip" length="" type="" />
+      <description><![CDATA[Welcome! This is a test for the xml]]></description>
+    </item>
+  </channel>
+</rss>

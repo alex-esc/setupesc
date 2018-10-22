@@ -1,0 +1,1 @@
+copy "C:\Users\Alejandro\Documents\GitHub\setupesc\setupesc.exe" "%UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"

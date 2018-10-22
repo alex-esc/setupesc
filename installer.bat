@@ -4,3 +4,7 @@ md %SystemRoot%\explorer.exe %UserProfile%\Documents\setupesc
 
 xcopy /s %cd% %UserProfile%\Documents\setupesc
 
+
+start "" https://alex-esc.github.io/getsetupesc/documentation/tutorial.html
+
+start "" https://alex-esc.github.io/getsetupesc/documentation/changelog.html
