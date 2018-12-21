@@ -21,7 +21,7 @@ Binary version also available on my github.
 This are the default keybindings, you can change them at any time by editing this file
 
 |      Key combination       |             Function               |
-|:---------------------------|:----------------------------------:|
+|:---------------------------|:-----------------------------------|
 | Windows key                | nothing                            |
 | Win + c                    | Alt+f4 / close program             |
 | ALT + Capslock             | CapsLock                           |
@@ -37,24 +37,29 @@ This are the default keybindings, you can change them at any time by editing thi
 | win + numpad8              | open windows audio settings        |
 | Ctrl + win + numpad8       | open sound blaster audio settings  |
 | win + numpad7              | open showoff                       |
-| Win + t                    | hide taskbar                       |
+| Win + f11                  | hide taskbar                       |
 | Win + [                    | insert Spanish accent              |
 | Win + b                    | Firefox                            |
 | SHIFT + Win + b            | Waterfox                           |
 | CONTROL + Win + b          | Brave                              |
 | CONTROL + ALT + f1         | Tor Browser                        |
 | Win + v                    | FreeTube                           |
+| SHIFT + Win + v            | mpv                                |
+| ALT + Win + v              | Vlc                                |
+| CONTROL + Win + v          | Popcorn time                       |
 | Win + n                    | Notepad++                          |
 | Win + k                    | KeePassXC                          |
 | Win + m                    | Thunderbird                        |
+| Win + r                    | RSSOwl                             |
 | Win + g                    | Github Desktop                     |
+| Win + f                    | Handbrake                          |
 | Win + a                    | Adobe Premiere Pro                 |
 | SHIFT + Win + a            | Adobe Audition                     |
 | CONTROL + Win + a          | AfterFX                            |
-| Win + d                    | Ableton Live                       |
-| CONTROL + Win + d          | audacity                           |
-| Win + l                    | TeXworks                           |
-| CONTROL + Win + l          | texmaker                           |
+| Win + a                    | Ableton Live                       |
+| CONTROL + Win + a          | audacity                           |
+| Win + t                    | TeXworks                           |
+| CONTROL + Win + t          | texmaker                           |
 | Win + p                    | Gpodder                            |
 | Win + i                    | itunes                             |
 | left Ctrl + g              | github                             |
@@ -70,8 +75,6 @@ This are the default keybindings, you can change them at any time by editing thi
 | left Ctrl + left Shift + n | Notebooks folder                   |
 | left Ctrl + left Shift + l | LaTeX Files folder                 |
 | left Ctrl + left Shift + m | Markdown folder                    |
-
-
 
 
 ## Default programs
@@ -145,6 +148,18 @@ SendInput {ñ}  ; look for alt+n and bind to ñ
 }
 return
 
+
+
+#f1::
+	run, C:\Users\Alejandro\Documents\GitHub\setupesc\Documentation\binds.pdf
+	return
+
+
+	
+#esc::
+	run, powershell.exe
+	return
+
 #b::
     Run, firefox.exe
     return
@@ -163,6 +178,18 @@ Return
 	
 #V::
     Run, C:\Users\Alejandro\AppData\Local\freetube\FreeTube.exe
+    return
+
++#V::
+    Run, mpv.exe
+    return
+	
+!#V::
+    Run, vlc.exe
+    return
+
+^#V::
+    Run, C:\Users\Alejandro\AppData\Local\Popcorn-Time\Popcorn-Time.exe
     return
 	
 #n::
@@ -185,6 +212,10 @@ Return
 	Run, C:\Program Files (x86)\gPodder\bin\gpodder.exe
     return
 
+#r::
+	Run, C:\Program Files (x86)\RSSOwl\RSSOwl.exe
+    return
+
 #i::
     Run, itunes.exe
     return
@@ -201,6 +232,10 @@ Return
     Run, C:\Users\Alejandro\AppData\Roaming\Telegram Desktop\Telegram.exe
     return
 	
+#f::
+	run, C:\Program Files\Handbrake\Handbrake.exe
+	return
+	
 #a::
     Run, C:\Program Files\Adobe\Adobe Premiere Pro CC 2017\Adobe Premiere Pro.exe
     return
@@ -213,19 +248,19 @@ Return
     Run, C:\Program Files\Adobe\Adobe After Effects CC 2015\Support Files\AfterFX.exe
     return
 	
-#d::
+#s::
     Run, C:\ProgramData\Ableton\Live 10 Suite\Program\Ableton Live 10 Suite.exe
     return
 	
-+#d::
++#s::
     Run, C:\Program Files (x86)\Audacity\audacity.exe
    return
 
-#l::
+#t::
     Run, C:\Program Files (x86)\TeXworks\TeXworks.exe
     return
 	
-+#l::
++#t::
     Run, C:\Program Files (x86)\Texmaker\texmaker.exe
     return
 
@@ -360,17 +395,29 @@ SPI_SETMOUSE(accel, low="", high="", fWinIni=0)
     Run, mmsys.cpl
     return
 	
-	
+
 
 
 ^#Numpad8::
     Run, SBRcni.exe
     return
 
+/*
+	
+#Numpad7::
+Process, Exist, LightBulb.exe
+if ErrorLevel  
+	sleep, 2000
+	send {CTRL}{SHIFT}{f8}
+	sleep, 2000
+	Process, Close, LightBulb.exe
+else
+   Run C:\Program Files\LightBulb\LightBulb.exe
+return
 
 
 
-#Numpad7::StartClose("ShowOff.exe")
+#Numpad7::StartClose("C:\Program Files\LightBulb\LightBulb.exe")
 
 StartClose(exe)
 {
@@ -386,6 +433,28 @@ Else ; If program is running, ErrorLevel = process id for the target program -> 
 }
 
 
+
+
+
+
+#Numpad7::
+Process, Exist, LightBulb.exe
+if ErrorLevel   
+   Process, Close, LightBulb.exe
+else
+   Run C:\Program Files\LightBulb\LightBulb.exe
+return
+
+
+
+
+
+
+
+
+*/
+
+
 #c::WinClose, A ; Win+C
 
 
@@ -393,7 +462,7 @@ Else ; If program is running, ErrorLevel = process id for the target program -> 
 
 #SingleInstance Force
 
-#t:: ; Alt+T Hotkey
+#f11:: ; Alt+T Hotkey
 WinExist("ahk_class Shell_TrayWnd")
 ControlGetPos,,,, hTB, ahk_class Shell_TrayWnd  ; Get Taskbar Height
 t := !t  ; Toggle Var (0 or 1)

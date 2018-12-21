@@ -4,6 +4,7 @@
 TODO
 [] Replace date & release version on setupesc.ahk
 [] Update (and check) documentation
+[] changelog -->   pandoc .\binds.md -o binds.pdf
 [] Push to main repo
 [] Make release on github
 [] Push to rss
@@ -13,9 +14,34 @@ TODO
 
 ## Current version
 
+# Update title
+
+> Setupesc v0.1 pre-release, Version released on MONTH DAY YEAR
+
+* Changed update RSS feed to github release atom feed
+* changed Daw shortcuts from 'win + d' to 'win + s', you can now think about it as 's' for sound
+* Changed LaTeX shortcuts from 'win + l' to 'Win + t', 'T' stands for typesetting
+* Changed hide taskbar script to 'win + f11' to better resemble a fullscreen shortcut
+* Added shortcuts for:
+	- vlc
+	- mpv
+	- popcorn time
+	- RSSowl
+* Removed feed.rss from changelog folder since the new rss feed is available [here]( https://github.com/alex-esc/setupesc/releases.atom).
+* Moved 'build', 'gui', 'silent install' and 'cfg.cmd' to 'experimental-features&tests'.
+* Added bind list / help menu, press WIN + F1
+* added shortcut for handbreak
+	
+
+
+
+-----------------------------------------------------------------------
+
+## Old versions
+
 # A great productivity boost + opening up to the internet
 
-> Setupesc pre-release, Version released on October 22nd 2018
+> Setupesc v0.1 pre-release, Version released on October 22nd 2018
 
 We are very exited about this project and want to share it with the world so we created a website!
 
@@ -93,8 +119,9 @@ And finally some miscellaneous changes
 + added installers for all needed programs under the folder 'programs-list'.
 + removed 'HOW-TO-INSTALL.txt' and moved installation instructions to the readme file.
 + updated documentation.
-		
-## Old versions
++ fixed zip file containing old version
+
+-------------------------------------
 
 - Setupesc :: Version released on September 30th 2018
 	* This is the first mayor addition to setupesc, it adds a simple installer and uninstaller for ease of use
