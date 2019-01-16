@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Configuration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="10">
+  <ShowTrayIconOnlyOnClose>false</ShowTrayIconOnlyOnClose>
+  <MinimizeToTray>false</MinimizeToTray>
+  <CloseToTray>false</CloseToTray>
+  <ShowDeviceConnectivityBalloons>true</ShowDeviceConnectivityBalloons>
+  <ShowDeviceOrFolderRejectedBalloons>true</ShowDeviceOrFolderRejectedBalloons>
+  <ShowSynchronizedBalloonEvenIfNothingDownloaded>false</ShowSynchronizedBalloonEvenIfNothingDownloaded>
+  <SyncthingAddress>localhost:8384</SyncthingAddress>
+  <StartSyncthingAutomatically>true</StartSyncthingAutomatically>
+  <SyncthingCommandLineFlags />
+  <SyncthingEnvironmentalVariables />
+  <SyncthingDenyUpgrade>false</SyncthingDenyUpgrade>
+  <SyncthingPriorityLevel>Normal</SyncthingPriorityLevel>
+  <Folders>
+    <Folder>
+      <ID>default</ID>
+      <IsWatched>false</IsWatched>
+      <NotificationsEnabled>false</NotificationsEnabled>
+    </Folder>
+  </Folders>
+  <NotifyOfNewVersions>true</NotifyOfNewVersions>
+  <ObfuscateDeviceIDs>true</ObfuscateDeviceIDs>
+  <UseComputerCulture>false</UseComputerCulture>
+  <SyncthingConsoleHeight>100</SyncthingConsoleHeight>
+  <WindowPlacement>
+    <IsMaximised>false</IsMaximised>
+    <MinPosition>-1, -1</MinPosition>
+    <MaxPosition>-1, -1</MaxPosition>
+    <NormalPosition>441, 212, 1100, 700</NormalPosition>
+  </WindowPlacement>
+  <SyncthingWebBrowserZoomLevel>0</SyncthingWebBrowserZoomLevel>
+  <LastSeenInstallCount>0</LastSeenInstallCount>
+  <SyncthingCustomPath />
+  <SyncthingCustomHomePath />
+  <DisableHardwareRendering>false</DisableHardwareRendering>
+  <EnableFailedTransferAlerts>true</EnableFailedTransferAlerts>
+  <EnableConflictFileMonitoring>true</EnableConflictFileMonitoring>
+  <ConflictResolverDeletesToRecycleBin>true</ConflictResolverDeletesToRecycleBin>
+  <PauseDevicesOnMeteredNetworks>true</PauseDevicesOnMeteredNetworks>
+  <HaveDonated>false</HaveDonated>
+  <IconAnimationMode>DataTransferring</IconAnimationMode>
+  <OpenFolderCommand>explorer.exe "{0}"</OpenFolderCommand>
+  <ShowFileInFolderCommand>explorer.exe /select, "{0}"</ShowFileInFolderCommand>
+  <LogLevel>Info</LogLevel>
+</Configuration>

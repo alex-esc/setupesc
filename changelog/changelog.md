@@ -8,18 +8,57 @@ TODO
 [] Push to main repo
 [] Make release on github
 [] Push to rss
+
+
+# Update title
+
+> Setupesc v0.1 pre-release, Version released on MONTH DAY YEAR
+
+
 -->
 
 [**Download the newest version here**](https://github.com/alex-esc/setupesc/archive/master.zip)
 
 ## Current version
 
-# Update title
+# Introducing workspaces
 
-> Setupesc v0.1 pre-release, Version released on MONTH DAY YEAR
+> Setupesc v0.2 pre-release, Version released on January 16 2019
 
-* Changed update RSS feed to github release atom feed
-* changed Daw shortcuts from 'win + d' to 'win + s', you can now think about it as 's' for sound
+
+## New Features
+
+* Added folder shortcuts:
+	* Now you can bind your most commonly used folder to custom key binds.
+	* All folder shortcuts follow this structure: 'Left Control + Left Shift +  X', where 'X' symbolizes any key assigned to a specific folder, for example in my setup I use 'Left Control + Left Shift +  d' to open the desktop.
+	* Added folder shortcuts for:
+		- Desktop folder
+		- Videos folder
+		- Images folder
+		- Downloads folder
+		- GitHub folder
+		- Notebooks folder
+		- LaTeX Files folder
+		- Markdown folder
+		- Sync folder
+		- Documents folder
+		- Audiobooks folder
+		- eBooks folder
+		- Projects folder
+* Added workspaces:
+	* You can now predefine a set of programs, files and folders to open at the same time, for example in my setup I can open my blog folder and my text editor with one key bind.
+	* All workspaces follow this structure: 'Left Control + Left Alt +  X', where 'X' symbolizes any key assigned to a specific workspace, for example in my setup I use 'Left Control + Left Alt +  b' to open the blog workspace.
+	* Added workspaces for:
+		- Setupesc development
+		- Bloging setup
+		- More to come!
+* Added help menu: Feeling lost? Just press 'WIN + F1' to open a list of all keyboard shortcuts.
+	
+## Updates:
+
+New shortcuts will be added on each new release, some will be brand new, others might be re-purposed old ones, for more information please refer to the new help menu.
+
+* changed Daw shortcuts from 'win + d' to 'win + s', you can now think about it as 's' for sound.
 * Changed LaTeX shortcuts from 'win + l' to 'Win + t', 'T' stands for typesetting
 * Changed hide taskbar script to 'win + f11' to better resemble a fullscreen shortcut
 * Added shortcuts for:
@@ -27,13 +66,23 @@ TODO
 	- mpv
 	- popcorn time
 	- RSSowl
+	- Handbreak
+	- Powershell
+
+## Minor changes:
+
 * Removed feed.rss from changelog folder since the new rss feed is available [here]( https://github.com/alex-esc/setupesc/releases.atom).
-* Moved 'build', 'gui', 'silent install' and 'cfg.cmd' to 'experimental-features&tests'.
-* Added bind list / help menu, press WIN + F1
-* added shortcut for handbreak
-	
+* Moved 'build', 'gui', 'silent install', 'README - how to compile.md' and 'cfg.cmd' to 'experimental-features&tests'.
+* Changed update RSS feed to github release atom feed
 
+## Experimental features:
 
+Our vision for setupesc is constantly changing, here are some features not added in the main program, at some point they may be included or not, for now you can test them out for yourself, to use them you need to compile them, see: 'README - how to compile.md'.
+
+* Added bug.n tile window manager.
+* Added keyboard control over mouse movement.
+* Added unfinished auto installer.
+* Added peer to peer file syncing software SyncThing using SyncTrayzor as a GUI.
 
 -----------------------------------------------------------------------
 
@@ -67,17 +116,6 @@ Previous versions were focused on improving your productivity and yours alone, s
 
 Most of the time spent in front of a computer will be spent manipulating files, you need to create your file, the name it, then open it, you might want to import or copy paste some data from another place so that means extra time lost in the directory weds. We identified this problem and say no more!
 
-Now you can open your favorite and most commonly accessed folders with a keystroke.
-
-+ added folder shortcuts for:
-	- Desktop
-	- Videos
-	- Pictures
-	- Downloads
-	- GitHub
-	- Notebooks
-	- LaTeX Files
-	- Markdown Files
 
 Normally to create a new file you open the desired folder, then right click, name it, if you use any special file format you need to modify the filename to add the file extension then hit enter and then you can begin working with your file. This changes today, now as soon as you open the folder you can press 'ALT + n' and it will prompt you to write the name of a new file, you are free to write the name of the file with the extension (for example 'doctoral-thesis.docx') and as soon as you press enter the file will be created in the current location and the newly created file will be opened right away with the default editor.
 

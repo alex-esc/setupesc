@@ -1,0 +1,42 @@
+=============== Jan 16, 2019 (CST) ===============
+12:13:46.998412 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:13:47.073337 db@open opening
+12:13:47.088323 version@stat F·[] S·0B[] Sc·[]
+12:13:47.204201 db@janitor F·2 G·0
+12:13:47.204201 db@open done T·130.8644ms
+=============== Jan 16, 2019 (CST) ===============
+12:14:38.722422 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:14:38.722422 version@stat F·[] S·0B[] Sc·[]
+12:14:38.722422 db@open opening
+12:14:38.723422 journal@recovery F·1
+12:14:38.723422 journal@recovery recovering @1
+12:14:38.837306 memdb@flush created L0@2 N·286 S·8KiB "\x00\x00\x00..oid,v8":"\v\x00\x00..\x00\x00W,v268"
+12:14:38.861298 version@stat F·[1] S·8KiB[8KiB] Sc·[0.25]
+12:14:38.985160 db@janitor F·3 G·0
+12:14:38.985160 db@open done T·262.7387ms
+=============== Jan 16, 2019 (CST) ===============
+12:16:02.423673 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:16:02.423673 version@stat F·[1] S·8KiB[8KiB] Sc·[0.25]
+12:16:02.423673 db@open opening
+12:16:02.424672 journal@recovery F·1
+12:16:02.424672 journal@recovery recovering @3
+12:16:02.505591 memdb@flush created L0@5 N·4 S·220B "\x04de..can,v291":"\npr..ion,v290"
+12:16:02.507591 version@stat F·[2] S·9KiB[9KiB] Sc·[0.50]
+12:16:02.608504 db@janitor F·4 G·0
+12:16:02.608504 db@open done T·184.8304ms
+12:16:02.648443 table@compaction L0·2 -> L1·0 S·9KiB Q·292
+12:16:02.728362 table@build created L1@8 N·285 S·8KiB "\x00\x00\x00..oid,v8":"\v\x00\x00..\x00\x00W,v268"
+12:16:02.728362 version@stat F·[0 1] S·8KiB[0B 8KiB] Sc·[0.00 0.00]
+12:16:02.813285 table@compaction committed F-1 S-225B Ke·0 D·5 T·164.8414ms
+12:16:02.814282 table@remove removed @5
+12:16:02.814282 table@remove removed @2
+=============== Jan 16, 2019 (CST) ===============
+12:16:44.870190 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:16:44.871189 version@stat F·[0 1] S·8KiB[0B 8KiB] Sc·[0.00 0.00]
+12:16:44.871189 db@open opening
+12:16:44.871189 journal@recovery F·1
+12:16:44.872187 journal@recovery recovering @6
+12:16:44.969089 memdb@flush created L0@9 N·1 S·143B "\x04de..can,v293":"\x04de..can,v293"
+12:16:44.970088 version@stat F·[1 1] S·9KiB[143B 8KiB] Sc·[0.25 0.00]
+12:16:45.040015 db@janitor F·4 G·0
+12:16:45.040015 db@open done T·168.8255ms

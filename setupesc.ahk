@@ -28,7 +28,8 @@ This are the default keybindings, you can change them at any time by editing thi
 | CapsLock                   | Mouse2                             |
 | alt + n                    | ñ                                  |
 | Alt + n                    | create a new document here         |
-| win+numpad9                | set powerplan to high              |
+| win + Escape               | Open Powershell                    |
+| win + numpad9              | set powerplan to high              |
 | win + numpad6              | set powerplan to mid               |
 | win + numpad3              | set powerplan to low               |
 | win + NumpadAdd            | Enable mouse acceleration          |
@@ -56,8 +57,8 @@ This are the default keybindings, you can change them at any time by editing thi
 | Win + a                    | Adobe Premiere Pro                 |
 | SHIFT + Win + a            | Adobe Audition                     |
 | CONTROL + Win + a          | AfterFX                            |
-| Win + a                    | Ableton Live                       |
-| CONTROL + Win + a          | audacity                           |
+| Win + s                    | Ableton Live                       |
+| CONTROL + Win + s          | audacity                           |
 | Win + t                    | TeXworks                           |
 | CONTROL + Win + t          | texmaker                           |
 | Win + p                    | Gpodder                            |
@@ -75,6 +76,15 @@ This are the default keybindings, you can change them at any time by editing thi
 | left Ctrl + left Shift + n | Notebooks folder                   |
 | left Ctrl + left Shift + l | LaTeX Files folder                 |
 | left Ctrl + left Shift + m | Markdown folder                    |
+| left Ctrl + left Shift + s | Sync folder                        |
+| left Ctrl + left Shift + e | Documents folder                   |
+| left Ctrl + left Shift + a | Audiobooks folder                  |
+| left Ctrl + left Shift + b | eBooks folder                      |
+| left Ctrl + left Shift + p | Projects folder                    |
+
+
+
+
 
 
 ## Default programs
@@ -321,7 +331,52 @@ Return
   Run, Explorer C:\Users\Alejandro\Downloads
 Return	
 
+>^>+s::
+  Run, Explorer C:\Users\Alejandro\Documents\sync
+Return
 
+>^>+e::
+  Run, Explorer C:\Users\Alejandro\Documents
+Return
+
+>^>+a::
+  Run, Explorer C:\Users\Alejandro\Documents\Audiobooks
+Return
+
+>^>+b::
+  Run, Explorer C:\Users\Alejandro\Documents\eBooks
+Return
+
+>^>+p::
+  Run, Explorer C:\Users\Alejandro\Documents\projects
+Return
+
+>^>!/::
+  Run, Explorer C:\Users\Alejandro\Documents\GitHub\setupesc
+  Run, Explorer C:\Users\Alejandro\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+  Run, notepad++.exe C:\Users\Alejandro\Documents\GitHub\setupesc\setupesc.ahk
+  Run, C:\Users\Alejandro\AppData\Local\GitHubDesktop\GitHubDesktop.exe
+Return
+
+>^>!b::
+  Run, notepad++.exe
+  Run, Explorer C:\Users\Alejandro\Documents\GitHub\posts
+  Run, firefox.exe https://alex-esc.github.io/posts/
+  Run, C:\Users\Alejandro\AppData\Local\GitHubDesktop\GitHubDesktop.exe
+Return
+
+
+/*
+space & >^ & s::
+  Run, Explorer C:\Users\Alejandro\Documents\GitHub\setupesc
+  Run, Explorer C:\Users\Alejandro\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+  Run, notepad++.exe C:\Users\Alejandro\Documents\GitHub\setupesc\setupesc.ahk
+  Run, C:\Users\Alejandro\AppData\Local\GitHubDesktop\GitHubDesktop.exe
+Return
+
+space & c:: msgbox space and c
+
+*/
 
 ~LWin Up:: return
 ~RWin Up:: return

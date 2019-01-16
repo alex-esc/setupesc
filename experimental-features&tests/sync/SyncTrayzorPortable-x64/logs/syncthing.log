@@ -1,0 +1,94 @@
+[start] 12:13:45 INFO: Generating ECDSA key and certificate for syncthing...
+[YB4J6] 12:13:45 INFO: syncthing v0.14.51 "Dysprosium Dragonfly" (go1.11 windows-amd64) teamcity@build.syncthing.net 2018-09-24 12:50:31 UTC
+[YB4J6] 12:13:45 INFO: My ID: YB4J65C
+[YB4J6] 12:13:46 INFO: Single thread SHA256 performance is 323 MB/s using crypto/sha256 (322 MB/s using minio/sha256-simd).
+[YB4J6] 12:13:46 INFO: Default folder created and/or linked to new config
+[YB4J6] 12:13:46 INFO: Default config saved. Edit C:\Users\Alejandro\Documents\GitHub\setupesc\experimental-features&tests\sync\SyncTrayzorPortable-x64\data\syncthing\config.xml to taste or use the GUI
+[YB4J6] 12:13:46 INFO: Hashing performance is 251.91 MB/s
+[YB4J6] 12:13:47 INFO: No stored folder metadata for "default": recalculating
+[YB4J6] 12:13:47 INFO: Ready to synchronize "Default Folder" (default) (sendreceive)
+[YB4J6] 12:13:47 INFO: Overall send rate is unlimited, receive rate is unlimited
+[YB4J6] 12:13:47 INFO: Rate limits do not apply to LAN connections
+[YB4J6] 12:13:47 INFO: Using discovery server https://discovery-v4.syncthing.net/v2/?nolookup&id=LYXKCHX
+[YB4J6] 12:13:47 INFO: Using discovery server https://discovery-v6.syncthing.net/v2/?nolookup&id=LYXKCHX
+[YB4J6] 12:13:47 INFO: Using discovery server https://discovery.syncthing.net/v2/?noannounce&id=LYXKCHX
+[YB4J6] 12:13:47 INFO: Relay listener (dynamic+https://relays.syncthing.net/endpoint) starting
+[YB4J6] 12:13:47 INFO: TCP listener ([::]:22000) starting
+[YB4J6] 12:13:47 INFO: Device YB4J65C is "alex" at [dynamic]
+[YB4J6] 12:13:47 INFO: Loading HTTPS certificate: open C:\Users\Alejandro\Documents\GitHub\setupesc\experimental-features&tests\sync\SyncTrayzorPortable-x64\data\syncthing\https-cert.pem: El sistema no puede encontrar el archivo especificado.
+[YB4J6] 12:13:47 INFO: Creating new HTTPS certificate
+[YB4J6] 12:13:47 INFO: Completed initial scan of sendreceive folder "Default Folder" (default)
+[YB4J6] 12:13:47 INFO: GUI and API listening on 127.0.0.1:8384
+[YB4J6] 12:13:47 INFO: Access the GUI via the following URL: http://localhost:8384/
+[YB4J6] 12:13:48 INFO: Automatic upgrade (current "v0.14.51" < latest "v1.0.0")
+[YB4J6] 12:13:54 WARNING: Automatically upgraded to version "v1.0.0". Restarting in 1 minute.
+[YB4J6] 12:13:58 INFO: New NAT port mapping: external TCP address 189.152.146.62:55980 to local address 0.0.0.0:22000.
+[YB4J6] 12:13:58 INFO: Detected 1 NAT service
+[YB4J6] 12:14:17 WARNING: upgrading: upgrade already in progress
+[YB4J6] 12:14:18 WARNING: upgrading: upgrade already in progress
+[YB4J6] 12:14:19 WARNING: upgrading: upgrade already in progress
+[YB4J6] 12:14:20 WARNING: upgrading: upgrade already in progress
+[YB4J6] 12:14:21 WARNING: upgrading: upgrade already in progress
+[YB4J6] 12:14:25 INFO: Joined relay relay://65.19.142.180:22067
+[YB4J6] 12:14:36 INFO: Restarting
+[YB4J6] 12:14:36 INFO: Disconnected from relay relay://65.19.142.180:22067
+[YB4J6] 12:14:36 INFO: Exiting
+[YB4J6] 12:14:37 INFO: syncthing v1.0.0 "Erbium Earthworm" (go1.11.4 windows-amd64) teamcity@build.syncthing.net 2018-12-26 16:23:05 UTC
+[YB4J6] 12:14:37 INFO: My ID: YB4J65C
+[YB4J6] 12:14:38 INFO: Single thread SHA256 performance is 344 MB/s using crypto/sha256 (342 MB/s using minio/sha256-simd).
+[YB4J6] 12:14:38 INFO: Hashing performance is 245.41 MB/s
+[YB4J6] 12:14:38 INFO: Detected upgrade from v0.14.51 to v1.0.0
+[YB4J6] 12:14:38 INFO: Ready to synchronize "Default Folder" (default) (sendreceive)
+[YB4J6] 12:14:38 INFO: Overall send rate is unlimited, receive rate is unlimited
+[YB4J6] 12:14:38 INFO: Using discovery server https://discovery-v4.syncthing.net/v2/?nolookup&id=LYXKCHX
+[YB4J6] 12:14:38 INFO: Using discovery server https://discovery-v6.syncthing.net/v2/?nolookup&id=LYXKCHX
+[YB4J6] 12:14:38 INFO: Using discovery server https://discovery.syncthing.net/v2/?noannounce&id=LYXKCHX
+[YB4J6] 12:14:38 INFO: Relay listener (dynamic+https://relays.syncthing.net/endpoint) starting
+[YB4J6] 12:14:38 INFO: TCP listener ([::]:22000) starting
+[YB4J6] 12:14:39 INFO: My name is "alex"
+[YB4J6] 12:14:39 INFO: GUI and API listening on 127.0.0.1:8384
+[YB4J6] 12:14:39 INFO: Access the GUI via the following URL: http://localhost:8384/
+[YB4J6] 12:14:39 INFO: Completed initial scan of sendreceive folder "Default Folder" (default)
+[YB4J6] 12:14:50 INFO: New NAT port mapping: external TCP address 189.152.146.62:55980 to local address 0.0.0.0:22000.
+[YB4J6] 12:14:50 INFO: Detected 1 NAT service
+[YB4J6] 12:15:16 INFO: Joined relay relay://103.95.207.50:22067
+[YB4J6] 12:15:58 INFO: Shutting down
+[YB4J6] 12:15:58 INFO: Disconnected from relay relay://103.95.207.50:22067
+[YB4J6] 12:15:58 INFO: Relay listener (dynamic+https://relays.syncthing.net/endpoint) shutting down
+[YB4J6] 12:15:58 INFO: Exiting
+[YB4J6] 12:16:01 INFO: syncthing v1.0.0 "Erbium Earthworm" (go1.11.4 windows-amd64) teamcity@build.syncthing.net 2018-12-26 16:23:05 UTC
+[YB4J6] 12:16:01 INFO: My ID: YB4J65C
+[YB4J6] 12:16:01 INFO: Single thread SHA256 performance is 357 MB/s using crypto/sha256 (348 MB/s using minio/sha256-simd).
+[YB4J6] 12:16:02 INFO: Hashing performance is 235.53 MB/s
+[YB4J6] 12:16:02 INFO: Ready to synchronize "Default Folder" (default) (sendreceive)
+[YB4J6] 12:16:02 INFO: Overall send rate is unlimited, receive rate is unlimited
+[YB4J6] 12:16:02 INFO: Using discovery server https://discovery-v4.syncthing.net/v2/?nolookup&id=LYXKCHX
+[YB4J6] 12:16:02 INFO: Using discovery server https://discovery-v6.syncthing.net/v2/?nolookup&id=LYXKCHX
+[YB4J6] 12:16:02 INFO: Using discovery server https://discovery.syncthing.net/v2/?noannounce&id=LYXKCHX
+[YB4J6] 12:16:02 INFO: Relay listener (dynamic+https://relays.syncthing.net/endpoint) starting
+[YB4J6] 12:16:02 INFO: TCP listener ([::]:22000) starting
+[YB4J6] 12:16:02 INFO: My name is "alex"
+[YB4J6] 12:16:02 INFO: GUI and API listening on 127.0.0.1:8384
+[YB4J6] 12:16:02 INFO: Access the GUI via the following URL: http://localhost:8384/
+[YB4J6] 12:16:02 INFO: Completed initial scan of sendreceive folder "Default Folder" (default)
+[YB4J6] 12:16:13 INFO: New NAT port mapping: external TCP address 189.152.146.62:55980 to local address 0.0.0.0:22000.
+[YB4J6] 12:16:13 INFO: Detected 1 NAT service
+[YB4J6] 12:16:34 INFO: Shutting down
+[YB4J6] 12:16:34 INFO: Exiting
+[YB4J6] 12:16:43 INFO: syncthing v1.0.0 "Erbium Earthworm" (go1.11.4 windows-amd64) teamcity@build.syncthing.net 2018-12-26 16:23:05 UTC
+[YB4J6] 12:16:43 INFO: My ID: YB4J65C
+[YB4J6] 12:16:44 INFO: Single thread SHA256 performance is 344 MB/s using minio/sha256-simd (339 MB/s using crypto/sha256).
+[YB4J6] 12:16:44 INFO: Hashing performance is 240.75 MB/s
+[YB4J6] 12:16:45 INFO: Ready to synchronize "Default Folder" (default) (sendreceive)
+[YB4J6] 12:16:45 INFO: Overall send rate is unlimited, receive rate is unlimited
+[YB4J6] 12:16:45 INFO: Using discovery server https://discovery-v4.syncthing.net/v2/?nolookup&id=LYXKCHX
+[YB4J6] 12:16:45 INFO: Using discovery server https://discovery-v6.syncthing.net/v2/?nolookup&id=LYXKCHX
+[YB4J6] 12:16:45 INFO: Using discovery server https://discovery.syncthing.net/v2/?noannounce&id=LYXKCHX
+[YB4J6] 12:16:45 INFO: Relay listener (dynamic+https://relays.syncthing.net/endpoint) starting
+[YB4J6] 12:16:45 INFO: TCP listener ([::]:22000) starting
+[YB4J6] 12:16:45 INFO: My name is "alex"
+[YB4J6] 12:16:45 INFO: GUI and API listening on 127.0.0.1:8384
+[YB4J6] 12:16:45 INFO: Access the GUI via the following URL: http://localhost:8384/
+[YB4J6] 12:16:45 INFO: Completed initial scan of sendreceive folder "Default Folder" (default)
+[YB4J6] 12:16:49 INFO: Shutting down
+[YB4J6] 12:16:49 INFO: Exiting
