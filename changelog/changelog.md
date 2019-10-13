@@ -21,6 +21,19 @@ TODO
 
 ## Current version
 
+# Update title
+
+> Setupesc v0.1 pre-release, Version released on MONTH DAY YEAR
+
+* Changed markdown documents to music folder
+* Added binds for volume up, down and mute (CTRL + Win + up / down / m)
+* re-worked Spanish accent binds
+
+-----------------------------------------------------------------------
+
+## Old versions
+
+
 # Introducing workspaces
 
 > Setupesc v0.2 pre-release, Version released on January 16 2019
@@ -83,10 +96,6 @@ Our vision for setupesc is constantly changing, here are some features not added
 * Added keyboard control over mouse movement.
 * Added unfinished auto installer.
 * Added peer to peer file syncing software SyncThing using SyncTrayzor as a GUI.
-
------------------------------------------------------------------------
-
-## Old versions
 
 # A great productivity boost + opening up to the internet
 

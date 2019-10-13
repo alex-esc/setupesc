@@ -75,7 +75,7 @@ This are the default keybindings, you can change them at any time by editing thi
 | left Ctrl + left Shift + g | GitHub folder                      |
 | left Ctrl + left Shift + n | Notebooks folder                   |
 | left Ctrl + left Shift + l | LaTeX Files folder                 |
-| left Ctrl + left Shift + m | Markdown folder                    |
+| left Ctrl + left Shift + m | Music folder                       |
 | left Ctrl + left Shift + s | Sync folder                        |
 | left Ctrl + left Shift + e | Documents folder                   |
 | left Ctrl + left Shift + a | Audiobooks folder                  |
@@ -152,13 +152,30 @@ SetWorkingDir %A_ScriptDir%
 Capslock::AppsKey   ; unbind caps lock
 +Capslock::Capslock ; bind caps to ALT+Capslock
 
-!n::
-{
-SendInput {ñ}  ; look for alt+n and bind to ñ
-}
-return
+>!a:: Send {Asc 160}   ; á
+>!+a:: Send {Asc 0193} ; Á
+>!e:: Send {Asc 130}   ; é
+>!+e:: Send {Asc 144}  ; É
+>!i:: Send {Asc 161}   ; í
+>!+i:: Send {Asc 0205} ; Í
+>!o:: Send {Asc 162}   ; ó
+>!+o:: Send {Asc 0211} ; Ó
+>!u:: Send {Asc 163}   ; ú
+>!+u:: Send {Asc 0218} ; Ú
+!n:: Send {Asc 164}    ; ñ
+!+n:: Send {Asc 165}   ; Ñ
+>!':: Send {Asc 129}   ; ü
+>!+':: Send {Asc 154}  ; Ü
+>!/:: Send {Asc 168}   ; ¿
+>!1:: Send {Asc 173}   ; ¡
+
+; see https://superuser.com/questions/698037/can-i-disable-the-altshift-shortcut-to-change-language-in-windows-8-1-or-win#698595 to re-configure.
 
 
+
+^#Up::send {Volume_Up}
+^#Down::send {Volume_Down}
+^#m::send {Volume_Mute}
 
 #f1::
 	run, C:\Users\Alejandro\Documents\GitHub\setupesc\Documentation\binds.pdf
@@ -179,7 +196,7 @@ return
     return
 
 ^#b::
-    Run, C:\Users\Alejandro\AppData\Local\Brave\Brave.exe
+	Run, C:\Program Files (x86)\BraveSoftware\Brave-Browser-Dev\Application\Brave.exe
     return
 
 ^!f1::
@@ -308,7 +325,7 @@ Return
 Return	
 
 
->^>+n::
+>^>+1::
   Run, Explorer C:\Users\Alejandro\Documents\MEGAsync\Notebooks
 Return	
 
@@ -319,7 +336,7 @@ Return
 
 
 >^>+m::
-  Run, Explorer C:\Users\Alejandro\Documents\markdown
+  Run, Explorer C:\Users\Alejandro\Music
 Return	
 
 
@@ -364,6 +381,8 @@ Return
   Run, firefox.exe https://alex-esc.github.io/posts/
   Run, C:\Users\Alejandro\AppData\Local\GitHubDesktop\GitHubDesktop.exe
 Return
+
+
 
 
 /*

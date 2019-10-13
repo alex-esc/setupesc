@@ -56,14 +56,15 @@
 | left Ctrl + left Shift + i | Images folder                      |
 | left Ctrl + left Shift + j | Downloads folder                   |
 | left Ctrl + left Shift + g | GitHub folder                      |
-| left Ctrl + left Shift + n | Notebooks folder                   |
+| left Ctrl + left Shift + 1 | Notebooks folder                   |
 | left Ctrl + left Shift + l | LaTeX Files folder                 |
-| left Ctrl + left Shift + m | Markdown folder                    |
+| left Ctrl + left Shift + m | Music folder                       |
 | left Ctrl + left Shift + s | Sync folder                        |
 | left Ctrl + left Shift + e | Documents folder                   |
 | left Ctrl + left Shift + a | Audiobooks folder                  |
 | left Ctrl + left Shift + b | eBooks folder                      |
 | left Ctrl + left Shift + p | Projects folder                    |
+
 
 
 
