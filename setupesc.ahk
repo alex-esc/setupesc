@@ -292,7 +292,7 @@ Return
     return
 
 >^s::
-    Run, Brave.exe https://miscursos.tec.mx/ultra/stream
+    Run, Brave.exe https://cursos.tecmilenio.mx/
     return
 
 >^r::

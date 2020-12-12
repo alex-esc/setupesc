@@ -6,6 +6,23 @@ This project was born out of frustration aimed at the default win10 experience, 
 
 Made using autohotkey and licensed under the GPL.
 
+---
+
+# **UPDATE**
+
+# A new direction
+
+I will attempt to re-write this program, here are some things I need to keep in mind:
+
+## To do list
+
+* add updated software list
+* test chocolately installed software
+* add json settings file
+* re-implement workspaces
+
+---
+
 ## A desktop with no icons needed
 
 Thanks to setupesc I achieved a desktop with zero icons and distractions, your computer is a tool not a toy, the less distractions and layers of menus: the better.
