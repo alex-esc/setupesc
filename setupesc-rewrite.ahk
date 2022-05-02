@@ -15,11 +15,10 @@ gitHub_Folder := "C:\Users\Alex\Documents\GitHub"
 museScorePath := "C:\Program Files\MuseScore 3\bin\MuseScore3.exe"
 sheetMusic_Folder := "C:\Users\Alex\Documents\MuseScore3\Partituras"
 fermatta_folder := "C:\Users\Alex\Documents\fermatta"
-whatsAppPath := "C:\Users\Alex\Desktop\WhatsAppAD.lnk" ;look up this path variable wont work
+whatsAppPath := "C:\Users\Alex\Desktop\WhatsAppAD.lnk"
 telegramPath := "C:\Users\Alex\AppData\Roaming\Telegram Desktop\Telegram.exe"
 olivePath := "C:\Program Files\Olive\olive-editor.exe"
 
-;hey
 
 /*
 ;unbind WINDOWS key
@@ -38,7 +37,7 @@ Capslock::AppsKey   ; unbind caps lock
 
 
 #v::
-    Run, "C:\Program Files\Olive\olive-editor.exe"
+    Run, %olivePath% 
 	return
 
 
@@ -119,14 +118,16 @@ Capslock::AppsKey   ; unbind caps lock
         run, brave.exe
         return
         
-    ;whatsapp client
+    ;whatsapp client  aa
     #w::
-        run, "C:\Users\Alex\Desktop\WhatsAppAD.lnk"
+        run, %whatsAppPath% 
         return
+        ;"C:\Users\Alex\Desktop\WhatsAppAD.lnk" 
+
 
     ;telegram client
     ^#w::
-        run, "C:\Users\Alex\AppData\Roaming\Telegram Desktop\Telegram.exe"
+        run, %telegramPath%
         return	
 	
 
