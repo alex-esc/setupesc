@@ -21,6 +21,8 @@ I will attempt to re-write this program, here are some things I need to keep in 
 * add json settings file
 * re-implement workspaces
 
+More info on the re-write folder
+
 ---
 
 ## A desktop with no icons needed
