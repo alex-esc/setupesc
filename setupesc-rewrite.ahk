@@ -19,7 +19,7 @@ whatsAppPath := "C:\Users\Alex\Desktop\WhatsAppAD.lnk" ;look up this path variab
 telegramPath := "C:\Users\Alex\AppData\Roaming\Telegram Desktop\Telegram.exe"
 olivePath := "C:\Program Files\Olive\olive-editor.exe"
 
-
+;hey
 
 /*
 ;unbind WINDOWS key
