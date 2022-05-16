@@ -18,6 +18,7 @@ fermatta_folder := "C:\Users\Alex\Documents\fermatta"
 whatsAppPath := "C:\Users\Alex\Desktop\WhatsAppAD.lnk"
 telegramPath := "C:\Users\Alex\AppData\Roaming\Telegram Desktop\Telegram.exe"
 olivePath := "C:\Program Files\Olive\olive-editor.exe"
+KeePassPath := "C:\Users\Alex\Desktop\KeePassXC.lnk"
 
 
 /*
@@ -138,6 +139,14 @@ Capslock::AppsKey   ; unbind caps lock
     #v::
         Run, %olivePath% 
         return
+    
+    ;KeePassXC
+    #k::
+        Run, %KeePassPath% 
+        return
+
+
+        
 	
 ;---------------- music shortcuts
 
@@ -292,7 +301,7 @@ http://www.keyboard-layout-editor.com/#/
 ["Esc",{x:1},"F1","F2","F3","F4",{x:0.5},"F5","F6","F7","F8",{x:0.5},"F9","F10","F11",{c:"#00b2ff"},"F12\nImage\n\n\n\n\nHelp",{x:0.25,c:"#cccccc"},"PrtSc","Scroll Lock","Pause\nBreak"],
 [{y:0.5},"~\n`","!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=",{w:2},"Backspace",{x:0.25},"Insert","Home","PgUp",{x:0.25},"Num Lock","/","*","-"],
 [{w:1.5},"Tab","Q",{c:"#d42626",f:2},"W\nTelegram\n\n\n\n\nWhatsapp",{c:"#cccccc",f:3},"E","R","T","Y","U","I",{c:"#a161ff"},"O\nProTools\n\n\n\n\nAbleton",{c:"#00ff25"},"P\nMax 8\n\n\n\n\nPd/Purr",{c:"#cccccc"},"{\n[","}\n]",{w:1.5},"|\n\\",{x:0.25},"Delete","End","PgDn",{x:0.25,c:"#a161ff"},"7\nDAC\n\n\n\n\nJack",{c:"#00b2ff"},"8\nsBlast\n\n\n\n\nAudio",{c:"#569aba"},"9\nHigh\n\n\n\n\nPwr",{c:"#cccccc",h:2},"+"],
-[{w:1.75},"Caps Lock","A","S","D","F",{c:"#00ff25"},"G\nFolder\n\n\n\n\nGitHub",{c:"#cccccc"},"H","J","K","L",":\n;","\"\n'",{w:2.25},"Enter",{x:3.5},"4\n←",{c:"#00b2ff"},"5\nMnger\n\n\n\n\nDevice",{c:"#569aba"},"6\nMed\n\n\n\n\nPwr"],
+[{w:1.75},"Caps Lock","A","S","D","F",{c:"#00ff25"},"G\nFolder\n\n\n\n\nGitHub",{c:"#cccccc"},"H","J",{c:"#f8fc35"},"K\n\n\n\n\n\nKPass",{c:"#cccccc"},"L",":\n;","\"\n'",{w:2.25},"Enter",{x:3.5},"4\n←",{c:"#00b2ff"},"5\nMnger\n\n\n\n\nDevice",{c:"#569aba"},"6\nMed\n\n\n\n\nPwr"],
 [{c:"#cccccc",w:2.25},"Shift","Z","X","C",{c:"#f8fc35"},"V\n\n\n\n\n\nOlive",{c:"#d42626"},"B\nBrave\n\n\n\n\nFirefox",{c:"#f8fc35"},"N\nEditor\n\n\n\n\nText",{c:"#a161ff",t:"000000"},"M\nFermatt\n\n\n\n\nMuse",{c:"#cccccc",t:"#000000"},"<\n,",">\n.","?\n/",{w:2.75},"Shift",{x:1.25},"↑",{x:1.25},"1\nEnd","2\n↓",{c:"#569aba"},"3\nLow\n\n\n\n\nPwr",{c:"#cccccc",h:2},"Enter"],
 [{w:1.25},"Ctrl",{w:1.25},"Win",{w:1.25},"Alt",{a:7,w:6.25},"",{a:4,w:1.25},"Alt",{w:1.25},"Win",{w:1.25},"Menu",{w:1.25},"Ctrl",{x:0.25},"←","↓","→",{x:0.25,w:2},"0\nIns",".\nDel"]
 
